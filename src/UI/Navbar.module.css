@@ -1,0 +1,47 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.425);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.topnav span {
+    margin-left: 0;
+    margin-right: 500px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.logout {
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.headingname {
+    color: white;
+    font-size: 30px;
+}
